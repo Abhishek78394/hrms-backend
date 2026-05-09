@@ -9,7 +9,7 @@ const createEmployee = Joi.object({
     firstName: Joi.string().required(),
     lastName: Joi.string().required(),
     email: Joi.string().email().required(),
-    phone: Joi.string().allow(""),
+    phone: Joi.string().pattern(/^[0-9]{10}$/).message("Phone number must be exactly 10 digits").required(),
     department: Joi.string().required(),
     designation: Joi.string().required(),
     salary: Joi.number().min(0).default(0),
@@ -55,7 +55,7 @@ const updateEmployee = Joi.object({
     firstName: Joi.string(),
     lastName: Joi.string(),
     email: Joi.string().email(),
-    phone: Joi.string(),
+    phone: Joi.string().pattern(/^[0-9]{10}$/).message("Phone number must be exactly 10 digits"),
     department: Joi.string(),
     designation: Joi.string(),
     salary: Joi.number().min(0),
@@ -72,4 +72,19 @@ const updateEmployee = Joi.object({
   headers: Joi.object().unknown(true)
 });
 
-module.exports = { createEmployee, listEmployees, idParam, updateEmployee };
+const updateMyProfile = Joi.object({
+  body: Joi.object({
+    firstName: Joi.string(),
+    lastName: Joi.string(),
+    phone: Joi.string().pattern(/^[0-9]{0,10}$/).message("Phone number must be maximum 10 digits").allow(""),
+    address: Joi.string().allow(""),
+    about: Joi.string().allow(""),
+    emergencyContact: Joi.string().allow(""),
+    profileImage: Joi.string().allow("")
+  }),
+  params: Joi.object({}),
+  query: Joi.object({}),
+  headers: Joi.object().unknown(true)
+});
+
+module.exports = { createEmployee, listEmployees, idParam, updateEmployee, updateMyProfile };

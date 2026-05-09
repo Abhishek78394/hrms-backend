@@ -7,7 +7,7 @@ const applyLeave = asyncHandler(async (req, res) => {
   const { type, startDate, endDate, reason, supportingDocument } = req.body;
   
   // 1. Find the Employee record associated with this User
-  const employee = await Employee.findOne({ userId: req.user._id });
+  const employee = await Employee.findOne({ email: req.user.email });
   
   if (!employee) {
     return errorResponse(res, "Employee profile not found. Please contact HR.", 404);
@@ -28,20 +28,29 @@ const applyLeave = asyncHandler(async (req, res) => {
 });
 
 const listLeaves = asyncHandler(async (req, res) => {
-  const { status } = req.query;
-  const filter = { deletedAt: null };
+  const { status, self } = req.query;
+  const filter = {};
   
-  // If user is an Employee, only show their own leaves
-  if (req.user.role === "Employee") {
-    const employee = await Employee.findOne({ userId: req.user._id });
+  // If user is an Employee, or self=true is passed, only show their own leaves
+  if (req.user.role === "Employee" || self === "true") {
+    const employee = await Employee.findOne({ email: req.user.email });
     if (employee) filter.employeeId = employee._id;
+  } else {
+    // Admin and HR should see all leaves
+    // No specific filter needed for now
   }
   
   if (status) filter.status = status;
 
   const leaves = await Leave.find(filter)
-    .populate("employeeId", "firstName lastName employeeId")
+    .select("-supportingDocument")
+    .populate("employeeId", "firstName lastName employeeId email")
     .sort("-appliedOn");
+    
+  try {
+    const fs = require('fs');
+    fs.appendFileSync('./logs/debug.log', `[listLeaves] Role: ${req.user.role}, Email: ${req.user.email}, Filter: ${JSON.stringify(filter)}, Results: ${leaves.length}\n`);
+  } catch(e) {}
 
   return successResponse(res, "Leave applications", leaves);
 });
@@ -50,8 +59,13 @@ const actionLeave = asyncHandler(async (req, res) => {
   const { id } = req.params;
   const { status, comments } = req.body;
 
-  const leave = await Leave.findById(id);
+  const leave = await Leave.findById(id).populate("employeeId");
   if (!leave) return errorResponse(res, "Leave not found", 404);
+
+  // Prevent HR from approving/rejecting their own leave
+  if (req.user.role === "HR" && leave.employeeId.email === req.user.email) {
+    return errorResponse(res, "You cannot approve or reject your own leave request.", 403);
+  }
 
   leave.status = status;
   leave.comments = comments;
@@ -63,7 +77,7 @@ const actionLeave = asyncHandler(async (req, res) => {
 });
 
 const getLeaveBalance = asyncHandler(async (req, res) => {
-  const employee = await Employee.findOne({ userId: req.user._id });
+  const employee = await Employee.findOne({ email: req.user.email });
   
   if (!employee) {
     return errorResponse(res, "Employee profile not found.", 404);

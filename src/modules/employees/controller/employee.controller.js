@@ -17,6 +17,23 @@ exports.listEmployees = asyncHandler(async (req, res) => {
   return successResponse(res, "Employees fetched", result.items, result.meta);
 });
 
+exports.getMyProfile = asyncHandler(async (req, res) => {
+  const employee = await employeeService.getEmployeeByUserId(req.user._id);
+  return successResponse(res, "Profile fetched", employee || {});
+});
+
+exports.updateMyProfile = asyncHandler(async (req, res) => {
+  const employee = await employeeService.getEmployeeByUserId(req.user._id);
+  if (!employee) return errorResponse(res, "Profile not found", 404);
+  
+  // Restricted fields: Employees cannot change their own department, salary, or role
+  const restrictedFields = ["department", "designation", "salary", "role", "employeeId", "status", "joiningDate", "userId"];
+  restrictedFields.forEach(f => delete req.body[f]);
+
+  const updated = await employeeService.updateEmployee(employee._id, req.body);
+  return successResponse(res, "Profile updated successfully", updated);
+});
+
 exports.getEmployee = asyncHandler(async (req, res) => {
   const employee = await employeeService.getEmployee(req.params.id);
   return successResponse(res, "Employee fetched", employee || {});

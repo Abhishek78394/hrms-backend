@@ -2,6 +2,7 @@ const employeeRepository = require("../repository/employee.repository");
 const mongoose = require("mongoose");
 const User = require("../../users/model/user.model");
 const Counter = require("../model/counter.model");
+const mailService = require("../../../common/services/mailService");
 
 class EmployeeService {
   /**
@@ -9,13 +10,11 @@ class EmployeeService {
    * Removed transactions to support standalone MongoDB instances (local development)
    */
   async createEmployee(payload) {
-    // 1. Create Employee record
-    const employee = await employeeRepository.create(payload);
-
-    // 2. Create corresponding User record for authentication
+    // 1. Create User record first for authentication
+    let userId = null;
     if (payload.password) {
       try {
-        await User.create({
+        const user = await User.create({
           firstName: payload.firstName,
           lastName: payload.lastName,
           email: payload.email,
@@ -24,13 +23,25 @@ class EmployeeService {
           phone: payload.phone,
           status: "active"
         });
+        userId = user._id;
       } catch (userError) {
-        console.error("Failed to create user record, but employee was created:", userError);
-        // Note: In standalone mode, we can't rollback automatically without transactions
-        // but we notify the log.
+        console.error("Failed to create user record:", userError);
+        throw userError;
       }
     }
 
+    // 2. Create Employee record with the linked userId
+    const employee = await employeeRepository.create({ ...payload, userId });
+    
+    // 3. Send welcome invite email if password was provided (new user created)
+    if (payload.password && payload.email) {
+      try {
+        await mailService.sendInviteEmail(payload.email, payload.password, payload.firstName);
+      } catch (emailErr) {
+        console.error("Failed to send invite email:", emailErr);
+      }
+    }
+    
     return employee;
   }
 
@@ -54,17 +65,36 @@ class EmployeeService {
   }
 
   listEmployees(query) {
-    const { search, department, designation, status, sort, page, limit } = query;
+    const { search, department, designation, status, role, sort, page, limit } = query;
     const filter = {};
     if (department) filter.department = department;
     if (designation) filter.designation = designation;
     if (status) filter.status = status;
-    if (search) filter.$text = { $search: search };
-    return employeeRepository.findAll(filter, { sort, page, limit });
+    if (role) {
+      if (role.startsWith("!")) {
+        filter.role = { $ne: role.substring(1) };
+      } else {
+        filter.role = role;
+      }
+    }
+    if (search) {
+      const searchRegex = new RegExp(search, "i");
+      filter.$or = [
+        { firstName: searchRegex },
+        { lastName: searchRegex },
+        { email: searchRegex },
+        { employeeId: searchRegex }
+      ];
+    }
+    return employeeRepository.findAll(filter, { sort, page, limit, projection: "-profileImage" });
   }
 
   getEmployee(id) {
-    return employeeRepository.findById(id);
+    return employeeRepository.model.findById(id).lean();
+  }
+
+  getEmployeeByUserId(userId) {
+    return employeeRepository.model.findOne({ userId, deletedAt: null }).lean();
   }
 
   async updateEmployee(id, payload) {
@@ -74,20 +104,20 @@ class EmployeeService {
     // 2. Sync with User record
     if (payload.email || payload.role || payload.firstName || payload.lastName) {
       try {
-        await User.findOneAndUpdate(
-          { email: employee.email },
+        await User.findByIdAndUpdate(
+          employee.userId,
           { 
             firstName: employee.firstName,
             lastName: employee.lastName,
             role: employee.role,
             email: employee.email
-          }
+          },
+          { new: true }
         );
-      } catch (userError) {
-        console.error("Failed to sync user record during employee update:", userError);
+      } catch (userErr) {
+        console.error("Service: User sync error:", userErr);
       }
     }
-
     return employee;
   }
 

@@ -7,7 +7,7 @@ const auth = (req, res, next) => {
   const token = bearer?.startsWith("Bearer ") ? bearer.split(" ")[1] : req.cookies?.accessToken;
   if (!token) return next(new ApiError(StatusCodes.UNAUTHORIZED, "Unauthorized"));
   const payload = verifyAccessToken(token);
-  req.user = payload;
+  req.user = { ...payload, _id: payload.sub };
   return next();
 };
 

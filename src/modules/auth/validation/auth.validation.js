@@ -29,7 +29,8 @@ const forgotPassword = Joi.object({
 
 const resetPassword = Joi.object({
   body: Joi.object({
-    token: Joi.string().required(),
+    email: Joi.string().email({ tlds: false }).required(),
+    otp: Joi.string().length(6).required(),
     password: Joi.string()
       .min(8)
       .pattern(/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).+$/)

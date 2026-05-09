@@ -7,6 +7,7 @@ router.use(auth);
 
 router.post("/", controller.uploadDocument);
 router.get("/", controller.listDocuments);
+router.get("/:id", controller.getDocument);
 router.delete("/:id", controller.deleteDocument);
 
 module.exports = router;

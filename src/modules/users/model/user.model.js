@@ -21,7 +21,12 @@ const userSchema = new mongoose.Schema(
     lockUntil: { type: Date, default: null },
     deletedAt: { type: Date, default: null, index: true }
   },
-  { timestamps: true, versionKey: false }
+  { 
+    timestamps: true, 
+    versionKey: false,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
+  }
 );
 
 userSchema.virtual("fullName").get(function fullName() {

@@ -7,6 +7,7 @@ router.use(auth);
 
 router.post("/check-in", controller.checkIn);
 router.post("/check-out", controller.checkOut);
+router.get("/export", controller.exportAttendance);
 router.get("/", controller.listAttendance);
 
 module.exports = router;

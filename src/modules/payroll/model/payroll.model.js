@@ -7,8 +7,11 @@ const payrollSchema = new mongoose.Schema(
     basicSalary: { type: Number, required: true },
     allowances: { type: Number, default: 0 },
     deductions: { type: Number, default: 0 },
+    totalWorkingHours: { type: Number, default: 0 },
+    overtimeHours: { type: Number, default: 0 },
+    totalHours: { type: Number, default: 0 },
     netSalary: { type: Number, required: true },
-    status: { type: String, enum: ["pending", "paid"], default: "pending" },
+    status: { type: String, enum: ["pending", "paid"], default: "pending", index: true },
     paymentDate: Date,
     paymentMethod: String,
     deletedAt: { type: Date, default: null, index: true }

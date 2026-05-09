@@ -20,10 +20,19 @@ const listDocuments = asyncHandler(async (req, res) => {
   if (employeeId) filter.employeeId = employeeId;
 
   const docs = await Document.find(filter)
+    .select("-fileUrl") // Exclude heavy base64 data from list
     .populate("employeeId", "firstName lastName employeeId")
     .sort("-createdAt");
 
   return successResponse(res, "Employee documents", docs);
+});
+
+const getDocument = asyncHandler(async (req, res) => {
+  const doc = await Document.findOne({ _id: req.params.id, deletedAt: null })
+    .populate("employeeId", "firstName lastName employeeId")
+    .lean();
+  if (!doc) return errorResponse(res, "Document not found", 404);
+  return successResponse(res, "Document fetched", doc);
 });
 
 const deleteDocument = asyncHandler(async (req, res) => {
@@ -32,4 +41,4 @@ const deleteDocument = asyncHandler(async (req, res) => {
   return successResponse(res, "Document deleted successfully");
 });
 
-module.exports = { uploadDocument, listDocuments, deleteDocument };
+module.exports = { uploadDocument, listDocuments, getDocument, deleteDocument };

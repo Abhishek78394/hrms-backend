@@ -9,7 +9,8 @@ const employeeValidation = require("../validation/employee.validation");
 const router = express.Router();
 router.use(auth);
 
-router.post("/", allowRoles(ADMIN, HR), validate(employeeValidation.createEmployee), employeeController.createEmployee);
+router.get("/me", allowRoles(ADMIN, HR, EMPLOYEE), employeeController.getMyProfile);
+router.patch("/me", allowRoles(ADMIN, HR, EMPLOYEE), validate(employeeValidation.updateMyProfile), employeeController.updateMyProfile);
 router.get("/next-id", allowRoles(ADMIN, HR), employeeController.getNextId);
 router.get("/", allowRoles(ADMIN, HR, EMPLOYEE), validate(employeeValidation.listEmployees), employeeController.listEmployees);
 router.get("/:id", allowRoles(ADMIN, HR, EMPLOYEE), validate(employeeValidation.idParam), employeeController.getEmployee);

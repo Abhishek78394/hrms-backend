@@ -1,36 +1,61 @@
-const Performance = require("../model/performance.model");
+const PerformanceReview = require("../model/performanceReview.model");
+const Employee = require("../../employees/model/employee.model");
 const asyncHandler = require("../../../common/utils/asyncHandler");
 const { successResponse, errorResponse } = require("../../../common/utils/apiResponse");
 
-const addReview = asyncHandler(async (req, res) => {
-  const { employeeId, ratings, feedback, period } = req.body;
-  
-  const values = Object.values(ratings);
-  const averageRating = values.reduce((a, b) => a + b, 0) / values.length;
-
-  const review = await Performance.create({
-    employeeId,
-    reviewerId: req.user._id,
-    period,
-    ratings,
-    averageRating,
-    feedback
+exports.createReview = asyncHandler(async (req, res) => {
+  const review = await PerformanceReview.create({
+    ...req.body,
+    reviewerId: req.user._id
   });
-
-  return successResponse(res, "Review added successfully", review);
+  return successResponse(res, "Performance review submitted successfully", review, {}, 201);
 });
 
-const listReviews = asyncHandler(async (req, res) => {
-  const { employeeId } = req.query;
+exports.listReviews = asyncHandler(async (req, res) => {
+  const { employeeId, period } = req.query;
   const filter = { deletedAt: null };
-  if (employeeId) filter.employeeId = employeeId;
 
-  const reviews = await Performance.find(filter)
-    .populate("employeeId", "firstName lastName employeeId")
-    .populate("reviewerId", "fullName")
-    .sort("-reviewDate");
+  if (req.user.role === "Employee") {
+    const emp = await Employee.findOne({ userId: req.user._id });
+    if (!emp) return successResponse(res, "No reviews found", []);
+    filter.employeeId = emp._id;
+  } else {
+    if (employeeId) filter.employeeId = employeeId;
+  }
 
-  return successResponse(res, "Performance reviews", reviews);
+  if (period) filter.period = period;
+
+  const reviews = await PerformanceReview.find(filter)
+    .populate("employeeId", "firstName lastName employeeId designation department")
+    .populate("reviewerId", "firstName lastName")
+    .sort("-period -createdAt");
+
+  return successResponse(res, "Performance reviews fetched", reviews);
 });
 
-module.exports = { addReview, listReviews };
+exports.getAnalytics = asyncHandler(async (req, res) => {
+  const stats = await PerformanceReview.aggregate([
+    { $match: { deletedAt: null } },
+    {
+      $group: {
+        _id: "$reviewType",
+        avgRating: { $avg: "$averageRating" },
+        count: { $sum: 1 }
+      }
+    }
+  ]);
+
+  const topPerformers = await PerformanceReview.find({ deletedAt: null })
+    .sort("-averageRating")
+    .limit(5)
+    .populate("employeeId", "firstName lastName profileImage");
+
+  return successResponse(res, "Performance analytics", { stats, topPerformers });
+});
+
+exports.updateReviewStatus = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const { status } = req.body;
+  const review = await PerformanceReview.findByIdAndUpdate(id, { status }, { new: true });
+  return successResponse(res, "Review status updated", review);
+});

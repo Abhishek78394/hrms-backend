@@ -16,12 +16,12 @@ class BaseRepository {
   }
 
   async findAll(filter = {}, options = {}) {
-    const { page = 1, limit = 10, sort = "-createdAt" } = options;
+    const { page = 1, limit = 10, sort = "-createdAt", projection = null } = options;
     const skip = (Number(page) - 1) * Number(limit);
     const query = { ...filter, deletedAt: null };
 
     const [items, total] = await Promise.all([
-      this.model.find(query).sort(sort).skip(skip).limit(Number(limit)),
+      this.model.find(query, projection).sort(sort).skip(skip).limit(Number(limit)),
       this.model.countDocuments(query)
     ]);
 

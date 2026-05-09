@@ -5,6 +5,12 @@ const { errorResponse } = require("../utils/apiResponse");
 
 const errorHandler = (err, req, res, next) => {
   if (res.headersSent) return next(err);
+  
+  try {
+    const fs = require('fs');
+    if (!fs.existsSync('./logs')) fs.mkdirSync('./logs');
+    fs.appendFileSync('./logs/debug.log', new Date().toISOString() + ' ' + req.url + ' ' + err.message + '\n' + (err.stack || '') + '\n\n');
+  } catch(e) {}
 
   if (err.isJoi) {
     return errorResponse(

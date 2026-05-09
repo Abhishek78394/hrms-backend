@@ -82,8 +82,8 @@ class AuthService {
     user.resetPasswordExpiresAt = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes
     await user.save();
     
-    // In production, send via Email/SMS. For now, log to console.
-    console.log(`\n[AUTH] OTP generated for ${email}: ${otp}\n`);
+    const mailService = require("../../../common/services/mailService");
+    await mailService.sendOtpEmail(email, otp);
     
     return { email };
   }

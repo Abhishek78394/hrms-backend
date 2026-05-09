@@ -1,0 +1,1946 @@
+Test[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:19:44.339Z /api/v1/leaves invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:20:47.766Z /api/v1/leaves?t=1778304047744 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:20:47.773Z /api/v1/leaves?t=1778304047747 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:20:47.804Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@admin.com, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:26:18.318Z /api/v1/leaves?t=1778304378305 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:26:18.321Z /api/v1/leaves?t=1778304378308 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:26:18.330Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T05:26:35.626Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T05:26:35.630Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: emp018@mailinator.com, Filter: {"employeeId":"69feb9e5d1090b9189b6e6bc"}, Results: 1
+[listLeaves] Role: Employee, Email: emp018@mailinator.com, Filter: {"employeeId":"69feb9e5d1090b9189b6e6bc"}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@admin.com, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:42:50.504Z /api/v1/leaves Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:46:26.681Z /api/v1/leaves?t=1778305586647 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:46:26.688Z /api/v1/leaves?t=1778305586651 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:46:26.712Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T05:53:00.051Z /api/v1/leaves?t=1778305980029 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:53:00.061Z /api/v1/leaves?t=1778305980033 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T05:53:00.099Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Admin Data Snippet: [{"_id":"69febffdb2495eb64d9cd94c","employeeId":{"_id":"69feb9e5d1090b9189b6e6bc","employeeId":"EMP-00019","firstName":"Abhi","lastName":"joshi","email":"emp018@mailinator.com"},"type":"sick","startDate":"2026-05-09T00:00:00.000Z","endDate":"2026-05-09T00:00:00.000Z","reason":"leave applyleave apply","status":"pending","supportingDocument":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAADRCAYAAACq2qwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABR2SURBVHhe7d2xipxH1sb
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T07:05:04.099Z /api/v1/leaves?t=1778310304034 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:05:04.116Z /api/v1/leaves?t=1778310304051 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:05:04.186Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T07:05:04.436Z /api/v1/leaves?t=1778310304344 Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:05:04.444Z /api/v1/leaves?t=1778310304426 Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:17:00.819Z /api/v1/auth/refresh-token connect EHOSTUNREACH 13.126.221.231:27017
+MongoServerSelectionError: connect EHOSTUNREACH 13.126.221.231:27017
+    at Topology.selectServer (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\lib\query.js:4627:63)
+
+2026-05-09T07:17:44.221Z /api/v1/auth/login connect EHOSTUNREACH 13.126.221.231:27017
+MongoServerSelectionError: connect EHOSTUNREACH 13.126.221.231:27017
+    at Topology.selectServer (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\lib\query.js:4627:63)
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 7
+2026-05-09T07:18:05.372Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:18:05.375Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:37:11.007Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:37:11.014Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:37:11.033Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T07:37:15.553Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:37:15.556Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 0
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 0
+2026-05-09T07:37:50.221Z /api/v1/employees "body.email" must be a valid email
+ValidationError: "body.email" must be a valid email
+
+2026-05-09T07:39:49.411Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:39:49.415Z /api/v1/attendance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T07:40:02.945Z /api/v1/auth/logout "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T07:40:16.031Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:16.035Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:18.168Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:18.171Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:19.168Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:19.171Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.001Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.004Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.500Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.503Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.722Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.725Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.924Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:20.926Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:23.037Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:40:23.040Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 0
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 0
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 0
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 0
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+[listLeaves] Role: Admin, Email: admin@hrms.local, Filter: {}, Results: 1
+2026-05-09T07:45:03.180Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:03.188Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:04.923Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:04.926Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:05.367Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:05.372Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:06.195Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:06.198Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:07.027Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:07.031Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+2026-05-09T07:45:33.233Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T07:45:33.238Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+2026-05-09T07:50:54.922Z /api/v1/attendance/check-in E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+MongoServerError: E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+    at InsertOneOperation.handleOk (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:154:16)
+
+2026-05-09T07:50:55.400Z /api/v1/attendance/check-in E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+MongoServerError: E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+    at InsertOneOperation.handleOk (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:154:16)
+
+2026-05-09T07:51:03.535Z /api/v1/attendance/check-in E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+MongoServerError: E11000 duplicate key error collection: hrms.employees index: email_1 dup key: { email: "emp01@mailinator.com" }
+    at InsertOneOperation.handleOk (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:154:16)
+
+2026-05-09T07:56:11.196Z /api/v1/attendance?date=2026-05-10 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:56:11.216Z /api/v1/attendance?date=2026-05-10 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T07:56:11.247Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-10T07:56:13.672Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-10T07:56:13.675Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-10T12:58:01.998Z /api/v1/attendance?date=2026-05-10 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-10T12:58:02.003Z /api/v1/attendance?date=2026-05-10 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-10T12:58:02.015Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-10T12:58:05.465Z /api/v1/attendance jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-10T12:58:05.478Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-10T12:58:42.702Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-10T12:58:42.706Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T08:01:04.887Z /api/v1/payroll Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:01:04.906Z /api/v1/payroll Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:50.970Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:50.973Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:52.770Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:52.773Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:53.417Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T08:14:53.420Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 1
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 1
+2026-05-09T08:16:27.267Z /api/v1/auth/logout "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T08:38:18.106Z /api/v1/attendance?date=2026-05-09 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T08:38:18.114Z /api/v1/attendance?date=2026-05-09 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T08:38:18.124Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T09:04:40.507Z /api/v1/payroll write ECONNRESET
+Error: write ECONNRESET
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+    at handleWriteReq (node:internal/stream_base_commons:52:26)
+    at writeGeneric (node:internal/stream_base_commons:148:15)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Connection.writeCommand (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:392:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+2026-05-09T09:28:14.039Z /api/v1/payroll getaddrinfo ENOTFOUND ac-zfbexfj-shard-00-00.togvnaz.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-zfbexfj-shard-00-00.togvnaz.mongodb.net
+    at Topology.selectServer (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processTimers (node:internal/timers:538:9)
+    at async tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\collection.js:313:24)
+
+2026-05-09T09:42:07.509Z /api/v1/auth/forgot-password Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-839682a103esm18850184b3a.51 - gsmtp
+Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-839682a103esm18850184b3a.51 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:887:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1695:34)
+    at SMTPConnection.<anonymous> (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:626:26)
+    at SMTPConnection._processResponse (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1072:20)
+    at SMTPConnection._onData (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:847:14)
+    at SMTPConnection._onSocketData (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:217:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+
+2026-05-09T09:42:13.023Z /api/v1/auth/forgot-password Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d3ff52sm46875865ad.26 - gsmtp
+Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d3ff52sm46875865ad.26 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:887:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1695:34)
+    at SMTPConnection.<anonymous> (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:626:26)
+    at SMTPConnection._processResponse (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1072:20)
+    at SMTPConnection._onData (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:847:14)
+    at SMTPConnection._onSocketData (C:\Users\Dell\Documents\hrms\backend\node_modules\nodemailer\lib\smtp-connection\index.js:217:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 1
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 1
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+2026-05-09T09:52:24.571Z /api/v1/auth/reset-password "body.token" is required
+ValidationError: "body.token" is required
+
+2026-05-09T09:52:31.857Z /api/v1/auth/reset-password "body.token" is required
+ValidationError: "body.token" is required
+
+2026-05-09T09:52:32.030Z /api/v1/auth/reset-password "body.token" is required
+ValidationError: "body.token" is required
+
+2026-05-09T09:52:42.936Z /api/v1/auth/reset-password "body.token" is required
+ValidationError: "body.token" is required
+
+2026-05-09T09:54:46.618Z /api/v1/auth/logout "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+2026-05-09T10:01:29.012Z /api/v1/leaves?t=1778320888991 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:01:29.015Z /api/v1/leaves?t=1778320888996 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:01:29.034Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {"employeeId":"69fee48f943e7d8758904d04"}, Results: 1
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {"employeeId":"69fee48f943e7d8758904d04"}, Results: 1
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+[listLeaves] Role: HR, Email: emp02@mailinator.com, Filter: {}, Results: 2
+2026-05-09T10:03:51.453Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:03:51.456Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:10:11.600Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:10:11.606Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:10:11.621Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T10:13:35.163Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:13:35.166Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:13:39.849Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:13:39.854Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:14:05.340Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:14:05.346Z /api/v1/documents Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+2026-05-09T10:14:39.193Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T10:14:39.195Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T10:26:15.243Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:26:15.250Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:26:15.257Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T10:26:29.287Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T10:26:29.289Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T10:26:33.970Z /api/v1/auth/logout "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T10:30:40.126Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:30:40.129Z /api/v1/employees jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:30:40.131Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:30:40.134Z /api/v1/employees jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:30:40.139Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T10:41:52.148Z /api/v1/employees?limit=10&search=abh jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:41:52.179Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T10:56:52.973Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:56:52.978Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:56:55.762Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:56:55.766Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T10:57:09.274Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T10:57:09.298Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T11:03:56.470Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T11:03:56.475Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: amit@example.com, Filter: {"employeeId":"69ff1225150d7dedaf369fb6"}, Results: 1
+[listLeaves] Role: Employee, Email: amit@example.com, Filter: {"employeeId":"69ff1225150d7dedaf369fb6"}, Results: 1
+2026-05-09T11:07:23.102Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+2026-05-09T11:07:23.106Z /api/v1/reports/dashboard Permission denied
+Error: Permission denied
+    at C:\Users\Dell\Documents\hrms\backend\src\common\middleware\rbac.js:6:17
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:11:10)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+
+[listLeaves] Role: Employee, Email: amit@example.com, Filter: {"employeeId":"69ff1225150d7dedaf369fb6"}, Results: 1
+[listLeaves] Role: Employee, Email: amit@example.com, Filter: {"employeeId":"69ff1225150d7dedaf369fb6"}, Results: 1
+2026-05-09T11:19:06.944Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:19:06.952Z /api/v1/employees?page=1&limit=10&search=&status=&designation=&sort=-createdAt jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:19:06.979Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T11:19:07.089Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:19:07.094Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:19:07.115Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T11:20:00.386Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T11:20:00.392Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T11:23:11.018Z /api/v1/auth/login Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\Dell\Documents\hrms\backend\src\modules\auth\service\auth.service.js:12:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\Dell\Documents\hrms\backend\src\modules\auth\controller\auth.controller.js:14:47
+
+2026-05-09T11:35:54.913Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:35:54.925Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:35:57.461Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:35:57.468Z /api/v1/employees/me jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:35:57.510Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T11:40:10.139Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:40:10.149Z /api/v1/documents jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T11:40:10.369Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
+2026-05-09T12:45:29.543Z /api/v1/payroll getaddrinfo ENOTFOUND ac-zfbexfj-shard-00-00.togvnaz.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-zfbexfj-shard-00-00.togvnaz.mongodb.net
+    at Topology.selectServer (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:567:9)
+    at process.processTimers (node:internal/timers:541:7)
+    at async tryOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:196:22)
+    at async executeOperation (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\Dell\Documents\hrms\backend\node_modules\mongoose\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+
+2026-05-09T13:06:17.758Z /api/v1/employees/me Phone number must be maximum 10 digits
+ValidationError: Phone number must be maximum 10 digits
+
+2026-05-09T13:06:25.650Z /api/v1/employees/me Phone number must be maximum 10 digits
+ValidationError: Phone number must be maximum 10 digits
+
+2026-05-09T13:17:53.856Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:17:53.863Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:17:54.585Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:17:54.590Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:30:07.937Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:30:07.953Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:30:08.692Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:30:08.697Z /api/v1/performance Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T13:33:09.142Z /api/v1/performance jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T13:33:09.183Z /api/v1/employees?limit=100 jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T13:33:09.194Z /api/v1/performance/analytics jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T13:33:09.257Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+
