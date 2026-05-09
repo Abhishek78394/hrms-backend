@@ -1944,3 +1944,62 @@ TokenExpiredError: jwt expired
 2026-05-09T13:33:09.257Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
 ValidationError: "body.refreshToken" must be a string
 
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+[listLeaves] Role: Employee, Email: emp01@mailinator.com, Filter: {"employeeId":"69fee466943e7d8758904cfa"}, Results: 1
+2026-05-09T14:04:17.999Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T14:04:18.010Z /api/v1/recruitment Unauthorized
+Error: Unauthorized
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:8:27)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+
+2026-05-09T14:06:15.259Z /api/v1/recruitment/candidates jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T14:06:15.268Z /api/v1/recruitment/stats jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Dell\Documents\hrms\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (C:\Users\Dell\Documents\hrms\backend\src\common\services\tokenService.js:11:42)
+    at auth (C:\Users\Dell\Documents\hrms\backend\src\common\middleware\auth.js:9:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\hrms\backend\node_modules\express\lib\router\index.js:280:10)
+
+2026-05-09T14:06:15.303Z /api/v1/auth/refresh-token "body.refreshToken" must be a string
+ValidationError: "body.refreshToken" must be a string
+

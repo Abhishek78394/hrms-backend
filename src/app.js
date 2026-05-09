@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const helmet = require("helmet");
 const cors = require("cors");
@@ -14,6 +15,10 @@ const logger = require("./config/logger");
 const setupSwagger = require("./docs/swagger");
 const notFound = require("./common/middleware/notFound");
 const errorHandler = require("./common/middleware/errorHandler");
+const connectDB = require("./config/db");
+
+// Establish DB connection for serverless
+connectDB().catch(err => logger.error({ err }, "DB Connection Error"));
 
 const app = express();
 

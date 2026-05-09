@@ -65,6 +65,39 @@ class MailService {
     `;
     return this.sendMail({ to, subject, html });
   }
+
+  async sendPerformanceReviewEmail(to, name, period, averageRating) {
+    const subject = `Performance Review Published - ${period}`;
+    const html = `
+      <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: auto; padding: 40px; border: 1px solid #f1f5f9; border-radius: 24px; background-color: #ffffff;">
+        <div style="text-align: center; margin-bottom: 30px;">
+          <div style="width: 60px; height: 60px; background-color: #f97316; border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; color: white; font-size: 30px; line-height: 60px;">🏆</div>
+        </div>
+        <h2 style="color: #0f172a; text-align: center; font-weight: 900; font-size: 24px; margin-bottom: 8px;">Performance Review Live</h2>
+        <p style="text-align: center; color: #64748b; font-size: 14px; margin-bottom: 32px;">Great work this month! Your evaluation for ${period} is ready.</p>
+        
+        <div style="background: #f8fafc; padding: 32px; text-align: center; border-radius: 20px; border: 1px solid #e2e8f0; margin-bottom: 32px;">
+          <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">Overall Score</p>
+          <span style="font-size: 48px; font-weight: 900; color: #f97316;">${averageRating.toFixed(1)}<span style="font-size: 20px; color: #cbd5e1;">/5.0</span></span>
+        </div>
+
+        <p style="color: #475569; font-size: 15px; line-height: 1.6; margin-bottom: 24px;">
+          Hi <strong>${name}</strong>,<br><br>
+          Your manager has completed your performance evaluation for <strong>${period}</strong>. You can now log in to the NexHR portal to view your detailed breakdown, strengths, and goals for the next month.
+        </p>
+
+        <div style="text-align: center; margin-bottom: 32px;">
+          <a href="${env.FRONTEND_URL}/performance" style="background-color: #0f172a; color: #ffffff; padding: 16px 32px; border-radius: 14px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">View My Growth Journey</a>
+        </div>
+
+        <p style="color: #94a3b8; font-size: 13px; font-weight: 500; text-align: center;">Please log in to acknowledge this review and add your self-feedback.</p>
+        
+        <hr style="border: 0; border-top: 1px solid #f1f5f9; margin: 32px 0;" />
+        <p style="text-align: center; color: #cbd5e1; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">&copy; 2026 NexHR Enterprise Portal</p>
+      </div>
+    `;
+    return this.sendMail({ to, subject, html });
+  }
 }
 
 module.exports = new MailService();
