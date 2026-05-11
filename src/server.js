@@ -9,7 +9,9 @@ const logger = require("./config/logger");
 const startServer = async () => {
   try {
     await connectDB();
-    await connectRedis();
+    await connectRedis().catch((err) =>
+      logger.warn({ err }, "Redis unavailable — continuing without it")
+    );
     const server = http.createServer(app);
     server.listen(env.PORT, () => logger.info(`${env.APP_NAME} running on port ${env.PORT}`));
   } catch (error) {
