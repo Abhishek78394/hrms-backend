@@ -22,6 +22,10 @@ connectDB().catch(err => logger.error({ err }, "DB Connection Error"));
 
 const app = express();
 
+// Required for Vercel/proxied environments — trust the first proxy
+// Fixes express-rate-limit ERR_ERL_UNEXPECTED_X_FORWARDED_FOR
+app.set("trust proxy", 1);
+
 app.use(pinoHttp({ logger }));
 app.use(helmet());
 app.use(
